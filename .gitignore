@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------
+# Zephyr / nRF Connect SDK application
+# Keep tracked: CMakeLists.txt, prj*.conf, Kconfig*, boards/,
+# *.overlay, sysbuild/, src*/, README.rst
+# ---------------------------------------------------------------
+
+# west / Zephyr / sysbuild build output (any depth)
+build/
+build_*/
+twister-out*/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Images and objects
+*.hex
+*.bin
+*.elf
+*.map
+*.uf2
+*.zip
+*.o
+*.obj
+*.a
+*.d
+
+# Logs, temp
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor / OS: keep shared VS Code config
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+desktop.ini
